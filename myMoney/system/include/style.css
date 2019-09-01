@@ -1,0 +1,88 @@
+body{
+	margin:0;
+	padding:0;
+}
+#container{
+	margin: 0;
+	padding: 0;
+}
+#content{
+	margin: 0 20px ;
+	position : fixed;
+  top:0;
+  left:0;
+  bottom:0;
+}
+#login_content{
+	width: 382px;
+	margin: 0 20px ;
+
+}
+#last_table{
+  position :fixed;
+  top: 0;
+  right:0;
+	bottom: 0;
+  left:420px;
+	margin: 0 0 0 15px;
+	overflow-y: scroll;
+}
+#sum_table{
+	margin-top:10px;
+}
+#sum_table table, #sum_table td, #sum_table th {
+    border: solid 1px;
+}
+.modify{
+	bottom: 10px;
+}
+.center {
+	width: 410px;
+	margin: auto;
+	overflow-y: scroll;
+}
+.login {
+	width: 410px;
+	margin: auto;
+}
+.last_moves{
+	margin-top:5px;
+	font-size:20px;
+}
+.last_moves td{
+	border: solid 1px;
+	text-align:center;
+}
+.mode{
+	width: 250px;
+}
+.category{
+	width: 250px
+}
+.in{
+	background-color: #B0FFBE;
+}
+.out{
+	background-color: #FFBEB0;
+}
+.search_bar{
+	width: 600px;
+	margin: auto;
+	margin-top: 20%;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+.button{
+	width:32%;
+	margin-top:5px
+}
+@media only screen and (max-width: 699px) {
+	#login_content{
+		width: 95%;
+	}
+}
